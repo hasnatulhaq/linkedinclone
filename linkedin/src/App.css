@@ -8,12 +8,18 @@
    height: 840px;
    margin:auto;
    border: 1px solid gray;
-   border-radius: 3px;
+   border-radius: 15px;
 }
-
 
 .chatbox__list{
      border: 1px solid black;
      width: 35%;
      height: 99.8%;
+}
+
+
+.chatbox__topheading{
+  text-align: left;
+    margin: 11px;
+    font-size: 15px;
 }
