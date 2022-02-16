@@ -2,7 +2,7 @@ function Searchbox(){
     return (
        <>
        <form>
-           <input type="text" name="name" />  
+           <input className="chatbox__searchbar" type="text" name="name" />  
        </form>
        </>
     )

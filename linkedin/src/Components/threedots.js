@@ -2,8 +2,10 @@ function Threedots(){
     return(
         <>
         <div>
-            <h1>Three dots</h1>
+            <h1>...</h1>
         </div>
         </>
     )
 }
+
+export default Threedots;

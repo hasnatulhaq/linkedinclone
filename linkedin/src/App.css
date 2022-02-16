@@ -3,16 +3,17 @@
 }
 
 .Chatbox{
+  background-color: white;
    align-items: center;
    width: 50%;
    height: 840px;
    margin:auto;
-   border: 1px solid gray;
+   border: 1px solid #d8d8d8;
    border-radius: 15px;
 }
 
 .chatbox__list{
-     border: 1px solid black;
+     border: 1px solid #d8d8d8;
      width: 35%;
      height: 99.8%;
 }
@@ -22,4 +23,12 @@
   text-align: left;
     margin: 11px;
     font-size: 15px;
+}
+
+.chatbox__searchbar{
+  width: 13rem;
+  height: 30px;
+  background-color: #eef3f8;
+  border: none;
+  border-radius: 5px;
 }
