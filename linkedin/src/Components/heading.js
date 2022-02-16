@@ -1,10 +1,12 @@
+import Threedots from "./threedots";
+
 function Topheading(){
     return(
         <>
-        <span>
+        <div>
          <h3 className="chatbox__topheading">Messaging</h3>
          <hr></hr>
-         </span>
+         </div>
         </>
     )
 }

@@ -1,5 +1,6 @@
 import Topheading from "./heading";
 import Searchbox from "./searchbar";
+import Userlist from "./userlist";
 
 function msglist(){
     return (
@@ -7,7 +8,7 @@ function msglist(){
               <div className="chatbox__list">
                   <Topheading/>
                   <Searchbox/>
-                  <h1>msglist</h1>
+                  <Userlist/>
               </div>
               </>
     )
