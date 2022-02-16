@@ -1,10 +1,16 @@
-function main_container(){
+import Msglist from "./chat_list.js";
+
+
+function Container(){
     return(
         <>
-        <h1>Hello world</h1>
+        <div className="Chatbox">
+            <Msglist/>
+        </div>
         </>
     )
+   
 }
 
 
-export default main_container;
+export default Container;
