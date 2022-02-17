@@ -1,4 +1,5 @@
 import Msglist from "./chat_list.js";
+import Chatpanel from "./messagepanel.js";
 
 
 function Container(){
@@ -6,6 +7,7 @@ function Container(){
         <>
         <div className="Chatbox">
             <Msglist/>
+            <Chatpanel/>
         </div>
         </>
     )
