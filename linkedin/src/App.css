@@ -34,7 +34,7 @@
 }
 
 .chatbox_usercard{
-  background-color: #f1f1f1;
+  border-bottom: 1px solid #d8d8d8;
   height: 70px;
   margin-top: 10px;
 }
