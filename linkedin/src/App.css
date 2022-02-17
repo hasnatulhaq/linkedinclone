@@ -26,7 +26,7 @@
 }
 
 .chatbox__searchbar{
-  width: 13rem;
+  width: 15rem;
   height: 30px;
   background-color: #eef3f8;
   border: none;
@@ -34,7 +34,7 @@
 }
 
 .chatbox_usercard{
-  background-color: gray;
+  background-color: #e7e7e7;
   height: 70px;
   margin-top: 10px;
 }
