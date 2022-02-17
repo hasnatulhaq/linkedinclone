@@ -1,24 +1,22 @@
-export default messageData=()=>{
-    [
+export const messageData=  [
         {
             image:'',
-            name:'adeel',
+            name:'Adeel',
             msg:'how are you'
         },
         {
             image:'',
-            name:'adeel',
-            msg:'how are you'
+            name:'Ahmed',
+            msg:'Good morning'
         },
         {
             image:'',
-            name:'adeel',
-            msg:'how are you'
+            name:'Muneeb',
+            msg:'Nice'
         },
         {
             image:'',
-            name:'adeel',
-            msg:'how are you'
+            name:'Moiz',
+            msg:'Thank you'
         }
-    ]
-}
+    ];
