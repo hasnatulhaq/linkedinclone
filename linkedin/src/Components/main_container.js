@@ -7,11 +7,10 @@ function Container(){
         <>
         <div className="Chatbox">
             <Msglist/>
-            <Chatpanel/>
+            <Chatpanel/>      
         </div>
         </>
     )
-   
 }
 
 

@@ -2,7 +2,9 @@ function Chatpanel(){
     return(
         <>
         <div>
-            <h1>hello world</h1>
+            <img></img>
+            <p>Abdul basit kazmi</p>
+            <p>Tag line</p>
         </div>
         </>
     )

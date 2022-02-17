@@ -1,27 +1,55 @@
-
 import {messageData} from '../Api/messageData'
 
 function Userlist(){
     return (
         <>
-        <div className="chatbox_usercard">
           {messageData.map((data, key) => {
             return (
-              <div key={key}>
-                {data.image +
-                  " , " +
-                  data.name +
-                  " ," +
-                  data.msg}
-              </div>
+                <div className="chatbox_usercard">
+                    <table>
+  <tr>
+  <td><img>{data.image}</img></td>  
+  </tr>
+  <tr>
+        <td>{data.name}</td>
+   
+  </tr>
+  <tr>
+  <td>{data.msg}</td>
+  </tr>
+</table>
+</div>
+              
             );
           })}
-        </div>
-        <hr></hr>
+        
+        
       </>
     )    
 }
-
+const Stock = ({ company, ticker, stockPrice, timeElapsed }) => {
+    if (!company) return <div />;
+    return (
+      <table>
+        <tbody>
+          <tr>
+            <td>
+              <h5>{company}</h5>
+            </td>
+            <td>
+              <h5>{ticker}</h5>
+            </td>
+            <td>
+              <h4>{stockPrice}</h4>
+            </td>
+            <td>
+              <p>{timeElapsed}</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    );
+  };
 
 
 // function Userlist(){
