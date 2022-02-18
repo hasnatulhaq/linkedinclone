@@ -5,8 +5,7 @@ function Chatpanel(){
     return(
         <>
         <div>
-        <div><Topheading/></div>
-         <div><Threedots/></div> 
+        <div><Topheading/>  <span><Threedots/></span></div>
         </div>
         <div>
             <p>Abdul basit kazmi</p>
