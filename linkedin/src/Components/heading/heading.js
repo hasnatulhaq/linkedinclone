@@ -1,4 +1,4 @@
-import Threedots from "./threedots";
+import '../heading/heading.css';
 
 function Topheading(){
     return(

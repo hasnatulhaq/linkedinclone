@@ -1,6 +1,6 @@
 //import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import './App.css';
-import Container from './Components/main_container';
+import Container from '../src/Components/main_container/main_container.js';
 
 function App() {
   return (

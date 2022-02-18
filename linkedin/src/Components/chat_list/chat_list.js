@@ -1,6 +1,7 @@
-import Topheading from "./heading";
-import Searchbox from "./searchbar";
-import Userlist from "./userlist";
+import '../chat_list/chat_list.css';
+import Topheading from "../heading/heading";
+import Searchbox from "../searchbar/searchbar";
+import Userlist from "../userlist/userlist";
 
 function msglist(){
     return (

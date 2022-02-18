@@ -1,3 +1,5 @@
+import '../searchbar/searchbar.css'
+
 function Searchbox(){
     return (
        <>

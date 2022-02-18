@@ -1,8 +1,10 @@
+import Topheading from "../heading/heading";
+
 function Chatpanel(){
     return(
         <>
+        <Topheading/>
         <div>
-            <img></img>
             <p>Abdul basit kazmi</p>
             <p>Tag line</p>
         </div>
