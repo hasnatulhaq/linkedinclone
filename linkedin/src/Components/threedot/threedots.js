@@ -1,8 +1,10 @@
+import '../threedot/threedots.css'
+
 function Threedots(){
     return(
         <>
         <div>
-            <h1>...</h1>
+            ...
         </div>
         </>
     )

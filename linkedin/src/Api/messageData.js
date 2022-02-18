@@ -44,5 +44,10 @@ export const messageData=  [
             image:'',
             name:'Moiz',
             msg:'Thank you'
+        },
+        {
+            image:'',
+            name:'Moiz',
+            msg:'Thank you'
         }
     ];
