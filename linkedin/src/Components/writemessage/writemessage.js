@@ -3,8 +3,10 @@ function writemessage(){
     return (
           <>
           <div className="chatbox__writemessage">
-              <h1>hello world</h1>
-          <input type='text'></input>
+              <hr></hr>
+              <textarea id="writemessage" className="chatbox__messagearea" rows="8" cols="80">
+                Write Message
+  </textarea>
           </div>
           </>
     )

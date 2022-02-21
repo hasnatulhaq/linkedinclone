@@ -4,7 +4,7 @@ function Threedots(){
     return(
         <>
         <div>
-            ...
+            <span className="Threedot">...</span>
         </div>
         </>
     )
