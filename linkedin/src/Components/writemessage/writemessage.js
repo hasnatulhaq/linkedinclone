@@ -4,7 +4,7 @@ function writemessage(){
           <>
           <div className="chatbox__writemessage">
               <hr></hr>
-              <textarea id="writemessage" className="chatbox__messagearea" rows="8" cols="80">
+              <textarea id="writemessage" className="chatbox__messagearea" rows="8">
                 Write Message
   </textarea>
           </div>

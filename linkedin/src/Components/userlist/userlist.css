@@ -1,0 +1,4 @@
+.chatbox__sideusermessage{
+    overflow-y: auto;
+    height: 85%;
+}

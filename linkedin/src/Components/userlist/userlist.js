@@ -1,9 +1,11 @@
+import "./userlist.css"
 import {messageData} from '../../Api/messageData'
 
 function Userlist(){
     return (
         //json file call 😃
         <>
+         <div className="chatbox__sideusermessage">
           {messageData.map((data, key) => {
             return (
                 <div className="chatbox_usercard">
@@ -21,6 +23,7 @@ function Userlist(){
                       </div>
  );
 })}
+</div>
       </>
     )    
 }
