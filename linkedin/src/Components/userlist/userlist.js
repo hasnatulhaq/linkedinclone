@@ -3,22 +3,18 @@ import {messageData} from '../../Api/messageData'
 
 function Userlist(){
     return (
-        //json file call 😃
+        //json file call
         <>
          <div className="chatbox__sideusermessage">
           {messageData.map((data, key) => {
             return (
                 <div className="chatbox_usercard">
-                    <table>
+                    <table className="chatbox__table">
                        <tr>
-                        <td>{data.image}</td>  
+                        <td><img className="userlist__image"  src={data.image} alt="pic"/></td>  
+                        <td>{data.name}<br/><span className="userlist_msg">{data.msg}</span></td>  
+                       {/*<td>{data.date}</td> */ }  
                        </tr>
-                    <tr>
-                   <td>{data.name}</td>
-                    </tr>
-                       <tr>
-                     <td>{data.msg}</td>
-                        </tr>
                      </table>
                       </div>
  );
