@@ -1,10 +1,11 @@
-import Network_card from '../../Components/network_card/network_Card.js';
+import NetworkCard from '../../Components/network_card/network_Card.js';
 
-function networkpage(){
+function Networkpage(){
     return(
-        <>  
+      <>
         <div>
-        <Network_card/>
+            <h1>hello</h1>
+        <NetworkCard/>
         </div>      
         </>
     )
@@ -12,4 +13,4 @@ function networkpage(){
 
 
 
-export default networkpage();
+export default Networkpage;

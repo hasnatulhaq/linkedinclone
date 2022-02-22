@@ -14,8 +14,8 @@ function App() {
     </div>
     <Router>
       <Routes>
-          <Route path='/network' element={<Networkpage/>}></Route>
-          <Route path='/message' element={<Messagepage/>}></Route>
+          <Route path='/network' element={<Networkpage/>}/>
+          <Route path='/msg' element={<Messagepage/>}/>
       </Routes>
     </Router>
     </>
@@ -23,3 +23,6 @@ function App() {
 }
 
 export default App;
+
+
+

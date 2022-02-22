@@ -2,10 +2,11 @@ import Container from '../../Components/main_container/main_container.js';
 
 
 
-function messagePage(){
+function Messagepage(){
     return(
         <>
            <div>
+               <h1>hello world</h1>
             <Container/>
             </div>    
         </>
@@ -13,4 +14,4 @@ function messagePage(){
 }
 
 
-export default messagePage();
+export default Messagepage;

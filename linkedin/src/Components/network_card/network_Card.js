@@ -1,7 +1,7 @@
 import './network_card.css';
 
 
-function network_card(){
+function Network_card(){
     return (
           <>
             <div className="Network_card"> 
@@ -13,4 +13,4 @@ function network_card(){
 
 
 
-export default network_card();
+export default Network_card;

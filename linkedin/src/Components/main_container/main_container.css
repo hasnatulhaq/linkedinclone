@@ -9,6 +9,7 @@
      border-radius: 15px;
   }
 
+  
   .chatbox__msglist{
     flex-basis: 49%;
     display: flex;
