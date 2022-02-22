@@ -11,4 +11,6 @@ function network_card(){
     )
 }
 
+
+
 export default network_card();
