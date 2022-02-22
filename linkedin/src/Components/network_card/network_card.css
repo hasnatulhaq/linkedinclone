@@ -1,0 +1,38 @@
+.networkcard{
+    width: 14em;
+   background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  text-align: center;
+  background-color: #FFFFFF;
+  border-radius: 1em;
+  box-shadow: 0 0 2em rgba(0,0,0,0.125);
+  overflow: hidden;
+}
+
+
+.networkcard__header-image{
+    width: 100%;
+    height: 6em;
+    padding-top: 2em;
+    background-image: url("https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80");
+    background-size: cover;
+    background-color: #FAFAFA;
+}
+
+.networkcard__avatar{
+width: 6em;
+height: 6em;
+margin: 40px 60px;
+background-image: url("https://pbs.twimg.com/profile_images/1252546246373408770/zw_4o6Wh_400x400.jpg");
+background-size: cover;
+background-color: #EEEEEE;
+border-radius: 100%;
+}
+
+.networkcard__name{
+margin-top: 3em;
+margin-bottom: .5em;
+font-size: 1.125rem;
+}
