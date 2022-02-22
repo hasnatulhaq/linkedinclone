@@ -1,3 +1,6 @@
+import './network_card.css';
+
+
 function network_card(){
     return (
           <>
@@ -7,3 +10,5 @@ function network_card(){
           </>
     )
 }
+
+export default network_card();

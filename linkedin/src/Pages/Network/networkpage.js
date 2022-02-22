@@ -1,11 +1,11 @@
-import Network from '../src/Components/network_card/network_card.js';
+import Network_card from '../../Components/network_card/network_Card.js';
 
 function networkpage(){
     return(
-        <>
+        <>  
         <div>
-            <h1> <Network/></h1>
-        </div>
+        <Network_card/>
+        </div>      
         </>
     )
 }
