@@ -1,6 +1,6 @@
 .MainNetwok{
-    margin: 5%;
-    padding: 1%;
+    display: inline-table;
+    margin: 6%;
     background-color: gainsboro;
     border: 1px solid black;
 }

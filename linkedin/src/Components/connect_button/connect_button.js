@@ -3,9 +3,7 @@ import './connect_button.css';
 function ConnectButton(){
     return(
         <>
-           <div>
-               <h3>button</h3>
-           </div>
+            <button class="Networkcard__button">Connect</button>
         </>
     )
 }
