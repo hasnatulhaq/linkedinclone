@@ -13,6 +13,9 @@
   overflow: hidden;
 }
 
+.networkcard :hover{
+   transform: rotate();
+}
 
 .networkcard__header-image{
     width: 100%;
