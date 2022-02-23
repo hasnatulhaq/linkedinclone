@@ -1,6 +1,8 @@
 .networkcard{
-    width: 14em;
-   background-color: white;
+    margin-right: 2%;
+    float: left;
+  width: 14em;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 1.5em;
