@@ -1,0 +1,16 @@
+.zindex_divone{
+    background-color: red;
+    border: 1px solid green;
+    height: 500px;
+    width: 300px;
+    z-index: 200;
+    position:absolute;
+    margin: 86px;
+}
+
+.zindex_divtwo{
+    background-color: yellow;
+    border: 1px solid black;
+    height: 500px;
+    width: 300px;
+}
