@@ -15,6 +15,7 @@ function Network_card(){
           return (
             <div className="networkcard"> 
             <div className="networkcard__header-image">
+              <div><span class="close">&times;</span></div>
             <div className="networkcard__avatar"></div>
             </div>  
             <p className="networkcard__name">{data.username}</p>
