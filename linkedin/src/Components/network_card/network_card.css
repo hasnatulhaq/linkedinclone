@@ -13,6 +13,21 @@
   overflow: hidden;
 }
 
+
+.networkcardtwo{
+    background-color: black;
+    margin: 1%;
+    float: left;
+    width: 14em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow: 0 0 2em rgba(0,0,0,0.125);
+    overflow: hidden;
+}
+
 .networkcard :hover{
    transform: rotate();
 }

@@ -1,21 +1,25 @@
 import ConnectButton from '../connect_button/connect_button';
 import './network_card.css';
 import {Networkdata} from '../../Api/networkdata'
+import React, { useState } from "react";
 
 
 
 function Network_card(){
-    const handleClose=()=>{
-           
+
+
+    const [style, setStyle] = useState("networkcard");
+    const handleClose=(e)=>{
+           setStyle("networkcardtwo");
     }
     return (
           <>
-          {handleClose}
+          {/*(e)=>handleClose(data.id)*/}
           {Networkdata.map((data, key) => {
           return (
-            <div className="networkcard"> 
+            <div className={style}> 
             <div className="networkcard__header-image">
-              <div><span class="close">&times;</span></div>
+              <div><span className="close" onClick={(e)=>handleClose(data.id)}>&times;</span></div>
             <div className="networkcard__avatar"></div>
             </div>  
             <p className="networkcard__name">{data.username}</p>
