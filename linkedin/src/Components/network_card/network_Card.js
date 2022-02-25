@@ -10,7 +10,7 @@ function Network_card(){
 
     const [style, setStyle] = useState("networkcard");
     const handleClose=(e)=>{
-           setStyle("networkcardtwo");
+           setStyle("networcard");
     }
     return (
           <>
