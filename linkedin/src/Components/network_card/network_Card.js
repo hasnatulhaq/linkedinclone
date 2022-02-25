@@ -1,23 +1,32 @@
 import ConnectButton from '../connect_button/connect_button';
 import './network_card.css';
 import {Networkdata} from '../../Api/networkdata'
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 
 
 function Network_card(){
-
-
-    const [style, setStyle] = useState("networkcard");
+    
+    const [list, setList] = useState([]);
     const handleClose=(e)=>{
-           setStyle("networcard");
+           console.log(e)
+           const filtereditems = list.filter((data) => {
+            return data.id !== e
+          
+        })
+        console.log(filtereditems,"filter items")
+        setList(filtereditems)
     }
+    useEffect(()=>{
+      setList(Networkdata)
+      },[])
+      
     return (
           <>
           {/*(e)=>handleClose(data.id)*/}
-          {Networkdata.map((data, key) => {
+          {list.map((data, key) => {
           return (
-            <div className={style}> 
+            <div className="networkcard"> 
             <div className="networkcard__header-image">
               <div><span className="close" onClick={(e)=>handleClose(data.id)}>&times;</span></div>
             <div className="networkcard__avatar"></div>
@@ -39,6 +48,6 @@ function Network_card(){
 
 
 
-export default Network_card;
+export default Network_card
 
 

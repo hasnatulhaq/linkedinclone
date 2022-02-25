@@ -1,5 +1,6 @@
 import './divPage.css';
-import Zindex from '../../Components/z_index/z_index.js';
+//import Zindex from '../../Components/z_index/z_index.js';
+import FlexBox from '../../Components/flexbox/FlexBox';
 
 
 
@@ -7,7 +8,8 @@ import Zindex from '../../Components/z_index/z_index.js';
 function Divmainpage(){
     return(
         <>
-        <Zindex/>     
+       {/* <Zindex/>*/}   
+        <FlexBox/>   
         </>
     )
 }
