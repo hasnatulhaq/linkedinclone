@@ -32,13 +32,13 @@ function Network_card(){
             <div className="networkcard__avatar"></div>
             </div>  
             <p className="networkcard__name">{data.username}</p>
-            <ul>
+            <ul className='networkcard__list'>
              <li className="networkcard__link">{data.tagline}</li>
              <li className="networkcard__link">{data.connection}</li>
             </ul>
-            <ul className="networkdcard__footer">
-                <li className="networkcard__footer__link contact-card__footer__link--twitter"><ConnectButton/></li>
-            </ul>
+            <div className="networkdcard__footer">
+                <span className="networkcard__button"><ConnectButton/></span>
+            </div>
             </div>
              );
             })}

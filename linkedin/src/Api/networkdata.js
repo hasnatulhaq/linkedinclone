@@ -11,8 +11,8 @@ export const Networkdata=  [
         id : 2,
         cover:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
         avatar:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
-        username:'Asad',
-        tagline:'Front end web dev',
+        username:'Ahmed',
+        tagline:'customer service head',
         connection: "2 connection"
     },
     {
@@ -20,22 +20,22 @@ export const Networkdata=  [
         cover:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
         avatar:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
         username:'Asad',
-        tagline:'Front end web dev',
+        tagline:'software dev',
         connection: "2 connection"
     },
     {
         id : 4,
         cover:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
         avatar:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
-        username:'Asad',
-        tagline:'Front end web dev',
+        username:'Talha',
+        tagline:'ui/ux designer',
         connection: "2 connection"
     },
     {
         id : 5,
         cover:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
         avatar:'https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg',
-        username:'Asad',
+        username:'Moiz',
         tagline:'Front end web dev',
         connection: "2 connection"
     },

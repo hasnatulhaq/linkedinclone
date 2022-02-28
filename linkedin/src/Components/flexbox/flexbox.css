@@ -1,11 +1,22 @@
 .container{
     display: flex;
+    flex-direction: column;
     height: 400vh;
     border: 1px solid black;
 }
 
 .container__item{
-    background-color: red;
+    background-color: indigo;
     width: 200px;
     height: 200px;
+}
+
+.networkcard__list{
+    list-style-type: none;
+}
+
+
+
+@media screen {
+    
 }
