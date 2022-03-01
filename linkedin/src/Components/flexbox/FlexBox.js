@@ -3,7 +3,7 @@ import './flexbox.css'
 function  FlexBox(){
     return (
         <>
-          <div>
+          {/* <div>
               <div className="container">
                   <div className="container__item">1</div>
                   <div className="container__item">2</div>
@@ -18,6 +18,9 @@ function  FlexBox(){
                   <div className="container__item">11</div> 
                   <div className="container__item">12</div>
               </div>
+          </div> */}
+          <div className='container'>
+              <div className='container__item'>b</div>
           </div>
         </>
     )
