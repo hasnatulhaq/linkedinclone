@@ -1,7 +1,13 @@
 function ProfileView(){
     return(
         <>
-          <h1>hello world</h1>
+        <div className="main-wrapper">
+           <div>
+             </div> 
+             <div>
+               </div>   
+        </div>
+          
         </>
     )
 }
